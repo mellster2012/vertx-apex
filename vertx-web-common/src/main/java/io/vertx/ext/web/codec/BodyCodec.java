@@ -105,7 +105,8 @@ public interface BodyCodec<T> {
 
   /**
    * A body codec that pipes the body to a write stream.
-   * Same as pipe(stream, true)
+   * <p></p>
+   * Same as pipe(stream, true).
    *
    * @param stream the destination stream
    * @return the body codec for a write stream
